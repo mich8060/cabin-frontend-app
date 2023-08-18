@@ -1,0 +1,23 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    padding-top:66px;
+}
+
+.app {
+    form {
+        outline:solid 1px red;
+    }
+}
+
+#navigation {
+    display:flex;
+    gap:16px;
+    padding:24px;
+    background:#eee;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
